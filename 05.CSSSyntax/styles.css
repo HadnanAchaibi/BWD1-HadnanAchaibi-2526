@@ -1,0 +1,104 @@
+/* stylelint-disable no-duplicate-selectors */
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Indie+Flower&display=swap");
+
+/* deel 1: start CSS */
+*{
+    margin:0;padding:0;box-sizing:border-box
+}
+
+html{
+  background: url("tile.png") center/300px repeat #fff; /* B.1 */
+}
+
+body{
+  max-width: 720px;
+  margin: 28px auto;
+  height: 900px;
+  padding: 40px 110px;
+  border: 12px solid #fff;
+  background: url("bg.png") center/cover no-repeat;      /* B.2 */
+  font-family: Arial, Helvetica, sans-serif;                    /* C.1 */
+  position: relative;
+  box-shadow: 0 28px 60px rgba(0,0,0,.25);                      /* E.2 */
+}
+
+h1{
+  margin-top: 18px;
+  text-align: center;
+  font-family: "Caveat", cursive;                               /* C.2 */
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #333;
+  text-shadow: 0 1px 0 #fff, 0 3px 6px rgba(0,0,0,.12);
+}
+
+h1{
+  color: #b21e2b;                                               /* D.1 rode hartjes */
+}
+
+main{
+  padding-top: 32px;
+}
+
+p{
+  font-family: "Indie Flower", cursive;                         /* C.3 */
+  font-size: 28px;
+  line-height: 1.55;                                            /* D.1 */
+  color: #243b8f;                                               /* D.1 blauwe tekst */
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+
+p{
+  background: transparent;
+  font-weight: 700;
+  color: #0a0a0a;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 0 #cfcfd4, 2px 2px 0 #b7b7bf;            /* E.1 */
+  padding: 0 .05em;
+  border-radius: 2px;
+}
+
+p{
+  text-shadow: 0 1px 0 #e9e9ee;
+  background:
+    linear-gradient(transparent 55%, #f3c9cf 55% 85%, transparent 85%);
+  border-radius: 4px;
+  padding: 0 .2em;
+}
+
+
+footer{
+  margin-top: 36px;
+  text-align: center;
+}
+
+footer{
+  font-family: "Indie Flower", cursive;
+  font-size: 26px;
+  color: #243b8f;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  margin-bottom: 6px;
+}
+
+footer{
+  font-size: 14px;
+  font-style: italic;
+  color: #2a2a2a;
+  opacity: .85;
+}
+
+
+body{
+  content:"";
+  position:absolute;
+  inset:-18px;
+  border-radius: 6px;
+  box-shadow: 0 20px 35px rgba(0,0,0,.18);
+  z-index:-1;
+}
