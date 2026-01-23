@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sportproducten & Diensten – Buurtkracht Sportwinkel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+<!-- ================= HEADER ================= -->
+<header class="bg-blue-900 text-white">
+  <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+    <h1 class="text-2xl font-extrabold">Buurtkracht Sportwinkel</h1>
+
+    <div class="flex items-center space-x-6 hidden md:flex">
+      <nav class="space-x-6">
+        <a href="index.html"
+           class="text-white font-bold border-b-2 border-white pb-1"
+           aria-current="page">Home</a>
+        <a href="producten.html" class="hover:text-blue-300">Producten</a>
+        <a href="contact.html" class="hover:text-blue-300">Contact</a>
+      </nav>
+
+      <!-- Winkelmand -->
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             class="h-7 w-7 text-white"
+             fill="none" viewBox="0 0 24 24"
+             stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.5 7h13L17 13M7 13h10" />
+        </svg>
+        <span class="absolute -top-2 -right-2 bg-red-600 text-white
+                     text-xs font-bold w-5 h-5 flex items-center
+                     justify-center rounded-full">2</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= BANNER ================= -->
+<section class="relative h-96">
+  <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1"
+       alt="Fitness banner"
+       class="absolute inset-0 w-full h-full object-cover" />
+
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <div class="relative z-10 flex items-center justify-center h-full text-center px-6">
+    <div>
+      <h2 class="relative text-4xl md:text-5xl font-extrabold text-white mb-4 tracking-tight">
+
+        <span class="relative z-10">Onze Sportproducten</span>
+
+        <!-- & teken in achtergrond -->
+        <span class="absolute inset-0 flex items-center justify-center
+                     text-green-300 text-7xl md:text-8xl font-extrabold
+                     translate-x-[9.25rem] select-none">
+          &
+        </span>
+
+        <span class="relative z-10 ml-2">Diensten</span>
+      </h2>
+
+      <p class="text-gray-200 text-lg">
+        Alles wat je nodig hebt om te sporten, trainen en actief te blijven.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PRODUCTEN ================= -->
+<section class="max-w-7xl mx-auto px-6 py-20">
+  <h3 class="text-3xl font-bold mb-12 text-center">Sportproducten</h3>
+
+  <div class="grid md:grid-cols-3 gap-8">
+
+    <!-- Sportkledij -->
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+      <img src="img/Schermafbeelding 2026-01-23 154422.png"
+           class="w-full h-48 object-cover rounded-xl mb-4"
+           alt="Under Armour sportshirt" />
+      <h4 class="text-xl font-semibold mb-2">Sportkledij</h4>
+      <p class="text-gray-600 mb-4">Comfortabele sportkleding voor elke sport.</p>
+
+      <button
+        class="bg-blue-900 text-white px-4 py-2 rounded-lg
+               border-2 border-transparent
+               hover:border-orange-500
+               transition duration-300
+               focus:outline-none
+               focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
+        In winkelmand
+      </button>
+    </div>
+
+    <!-- Sportschoenen -->
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+      <img src="img/Schermafbeelding 2026-01-23 154310.png"
+           class="w-full h-48 object-cover rounded-xl mb-4"
+           alt="Nike sportschoenen" />
+      <h4 class="text-xl font-semibold mb-2">Sportschoenen</h4>
+      <p class="text-gray-600 mb-4">Nike schoenen voor indoor en outdoor sport.</p>
+
+      <button
+        class="bg-blue-900 text-white px-4 py-2 rounded-lg
+               border-2 border-transparent
+               hover:border-orange-500
+               transition duration-300
+               focus:outline-none
+               focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
+        In winkelmand
+      </button>
+    </div>
+
+    <!-- Sportaccessoires -->
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+      <img src="img/Schermafbeelding 2026-01-23 154133.png"
+           class="w-full h-48 object-cover rounded-xl mb-4"
+           alt="Sportaccessoires" />
+      <h4 class="text-xl font-semibold mb-2">Sportaccessoires</h4>
+      <p class="text-gray-600 mb-4">Bidons, sporttassen en accessoires.</p>
+
+      <button
+        class="bg-blue-900 text-white px-4 py-2 rounded-lg
+               border-2 border-transparent
+               hover:border-orange-500
+               transition duration-300
+               focus:outline-none
+               focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
+        In winkelmand
+      </button>
+    </div>
+
+    <!-- FICTIEF PRODUCT -->
+    <div class="bg-gradient-to-br from-purple-600 to-blue-600
+                p-6 rounded-2xl shadow-lg hover:shadow-2xl
+                transition text-white">
+      <h4 class="text-xl font-semibold mb-2">GravityFit Pro Belt</h4>
+      <p class="text-sm mb-4">
+        Slimme trainingsriem met virtuele zwaartekracht.
+        <em>(Fictief product)</em>
+      </p>
+      <ul class="list-disc list-inside text-sm mb-4">
+        <li>Realtime feedback</li>
+        <li>Extra weerstand</li>
+        <li>Voor alle sporten</li>
+      </ul>
+      <button class="bg-white text-blue-700 px-4 py-2 rounded-lg font-semibold">
+        Ontdek innovatie
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= DIENSTEN ================= -->
+<section class="bg-white py-20">
+  <div class="max-w-7xl mx-auto px-6">
+    <h3 class="text-3xl font-bold mb-12 text-center">Diensten</h3>
+
+    <div class="grid md:grid-cols-2 gap-10">
+
+      <div class="bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h4 class="text-2xl font-semibold mb-3">Persoonlijk Sportadvies</h4>
+        <p>Advies op maat voor jouw sport en niveau.</p>
+      </div>
+
+      <div class="bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h4 class="text-2xl font-semibold mb-3">Team- & Clubkledij</h4>
+        <p>Bedrukking voor teams en verenigingen.</p>
+      </div>
+
+      <div class="bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h4 class="text-2xl font-semibold mb-3">Lokale Levering</h4>
+        <p>Snelle levering of afhaling in de winkel.</p>
+      </div>
+
+      <div class="bg-gray-50 p-8 rounded-2xl shadow-md hover:shadow-xl transition">
+        <h4 class="text-2xl font-semibold mb-3">Cadeaubonnen</h4>
+        <p>Perfect cadeau voor sportliefhebbers.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-gray-900 text-gray-400 py-8">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <p>&copy; 2026 Buurtkracht Sportwinkel – Fictieve webshop</p>
+  </div>
+</footer>
+
+</body>
+</html>

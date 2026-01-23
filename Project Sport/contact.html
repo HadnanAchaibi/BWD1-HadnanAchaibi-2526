@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Buurtkracht Sportwinkel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+<!-- ================= HEADER ================= -->
+<header class="bg-blue-900 text-white">
+  <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+    <h1 class="text-2xl font-extrabold">Buurtkracht Sportwinkel</h1>
+
+    <div class="flex items-center space-x-6 hidden md:flex">
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-blue-300">Home</a>
+        <a href="producten.html" class="hover:text-blue-300">Producten</a>
+        <a href="contact.html" class="text-white font-bold border-b-2 border-white pb-1" aria-current="page">Contact</a>
+      </nav>
+
+      <!-- Winkelmand -->
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.5 7h13L17 13M7 13h10" />
+        </svg>
+        <span class="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">2</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="relative h-72">
+  <img src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d"
+       class="absolute inset-0 w-full h-full object-cover"
+       alt="Contact sportwinkel" />
+  <div class="absolute inset-0 bg-black/60"></div>
+  <div class="relative z-10 h-full flex items-center justify-center text-center">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-white">Contacteer Ons</h2>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="max-w-7xl mx-auto px-6 py-20">
+  <div class="grid md:grid-cols-2 gap-12">
+
+    <!-- Contact info -->
+    <div>
+      <h3 class="text-3xl font-bold mb-6">Neem contact op</h3>
+      <p class="text-gray-600 mb-6">
+        Heb je vragen over onze producten, diensten of bestellingen?
+        Wij helpen je graag verder.
+      </p>
+
+      <ul class="space-y-4 text-gray-700">
+        <li><strong>📍 Adres:</strong> Sportstraat 12, 9000 Gent</li>
+        <li><strong>📞 Telefoon:</strong> 09 123 45 67</li>
+        <li><strong>✉️ E-mail:</strong> info@buurtkrachtsport.be</li>
+        <li><strong>🕒 Open:</strong> Ma–Za 09:00 – 18:00</li>
+      </ul>
+    </div>
+
+    <!-- Formulier -->
+    <div class="bg-white p-8 rounded-2xl shadow-lg">
+      <form class="space-y-6">
+
+        <div>
+          <label class="block font-semibold mb-2">Naam</label>
+          <input type="text"
+                 class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-900"
+                 placeholder="Jouw naam" />
+        </div>
+
+        <div>
+          <label class="block font-semibold mb-2">E-mail</label>
+          <input type="email"
+                 class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-900"
+                 placeholder="jij@email.be" />
+        </div>
+
+        <div>
+          <label class="block font-semibold mb-2">Bericht</label>
+          <textarea rows="5"
+                    class="w-full border rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-900"
+                    placeholder="Schrijf hier je bericht..."></textarea>
+        </div>
+
+        <button type="submit"
+                class="bg-blue-900 text-white px-6 py-3 rounded-lg font-semibold
+                       border-2 border-transparent hover:border-orange-500
+                       transition duration-300">
+          Verstuur bericht
+        </button>
+
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-gray-900 text-gray-400 py-8">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <p>&copy; 2026 Buurtkracht Sportwinkel – Contactpagina</p>
+  </div>
+</footer>
+
+</body>
+</html>

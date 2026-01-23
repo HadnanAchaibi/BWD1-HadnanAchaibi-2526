@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Producten – Buurtkracht Sportwinkel</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+<!-- ================= HEADER ================= -->
+<header class="bg-blue-900 text-white">
+  <div class="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
+    <h1 class="text-2xl font-extrabold">Buurtkracht Sportwinkel</h1>
+    <div class="flex items-center space-x-6 hidden md:flex">
+      <nav class="space-x-6">
+        <a href="index.html" class="hover:text-blue-300">Home</a>
+        <a href="producten.html" class="text-white font-bold border-b-2 border-white pb-1" aria-current="page">Producten</a>
+        <a href="contact.html" class="hover:text-blue-300">Contact</a>
+      </nav>
+
+      <!-- Winkelmand -->
+      <div class="relative">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13l-1.5 7h13L17 13M7 13h10" />
+        </svg>
+        <span class="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">2</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="relative h-72">
+  <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438"
+       class="absolute inset-0 w-full h-full object-cover"
+       alt="Sportwinkel producten" />
+  <div class="absolute inset-0 bg-black/60"></div>
+  <div class="relative z-10 h-full flex items-center justify-center text-center">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-white">Onze Producten</h2>
+  </div>
+</section>
+
+<!-- ================= FILTERS ================= -->
+<section class="max-w-7xl mx-auto px-6 py-10">
+  <div class="flex flex-wrap gap-4 justify-center">
+    <button class="px-4 py-2 bg-blue-900 text-white rounded-lg">Alles</button>
+    <button class="px-4 py-2 bg-white border rounded-lg hover:border-blue-900">Sportkledij</button>
+    <button class="px-4 py-2 bg-white border rounded-lg hover:border-blue-900">Sportschoenen</button>
+    <button class="px-4 py-2 bg-white border rounded-lg hover:border-blue-900">Accessoires</button>
+  </div>
+</section>
+
+<!-- ================= PRODUCT GRID ================= -->
+<section class="max-w-7xl mx-auto px-6 pb-20">
+  <div class="grid md:grid-cols-3 gap-8">
+
+    <!-- Product -->
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+      <img src="img/Schermafbeelding 2026-01-23 154940.png"
+           class="w-full h-48 object-cover rounded-xl mb-4"
+           alt="Sportshirt" />
+      <h3 class="text-xl font-semibold">Under Armour Training Shirt</h3>
+      <p class="text-gray-600 text-sm mb-2">Ademend, licht en comfortabel.</p>
+      <p class="font-bold mb-4">€29,99</p>
+      <button class="bg-blue-900 text-white px-4 py-2 rounded-lg border-2 border-transparent hover:border-orange-500 transition">In winkelmand</button>
+    </div>
+
+    <!-- Product -->
+    <div class="bg-white p-6 rounded-2xl shadow-lg hover:shadow-2xl transition">
+      <img src="img/Schermafbeelding 2026-01-23 155017.png"
+           class="w-full h-48 object-cover rounded-xl mb-4"
+           alt="Nike schoenen" />
+      <h3 class="text-xl font-semibold">Nike Sportschoenen</h3>
+      <p class="text-gray-600 text-sm mb-2">Voor indoor en outdoor sport.</p>
+      <p class="font-bold mb-4">€89,99</p>
+      <button class="bg-blue-900 text-white px-4 py-2 rounded-lg border-2 border-transparent hover:border-orange-500 transition">In winkelmand</button>
+    </div>
+
+    <!-- Fictief product -->
+    <div class="bg-gradient-to-br from-purple-600 to-blue-600 p-6 rounded-2xl text-white shadow-lg hover:shadow-2xl transition">
+      <h3 class="text-xl font-semibold mb-2">GravityFit Pro Belt</h3>
+      <p class="text-sm mb-4">Slimme trainingsriem met virtuele weerstand.</p>
+      <p class="font-bold mb-4">€149,99</p>
+      <button class="bg-white text-blue-700 px-4 py-2 rounded-lg font-semibold">Ontdek innovatie</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-gray-900 text-gray-400 py-8">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+    <p>&copy; 2026 Buurtkracht Sportwinkel</p>
+  </div>
+</footer>
+
+</body>
+</html>
+
